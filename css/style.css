@@ -1,0 +1,40 @@
+body {
+    color: white !important;
+}
+
+input[type=text] {
+    background: none;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    height: 50px;
+    width: 50%;
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke
+}
+
+input:focus {
+    outline: none;
+}
+
+form {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+#clock {
+    text-align: left;
+}
+
+#login {
+    height: 200px;
+}
+
+li {
+    font-size: large;
+    list-style: none;
+}
+

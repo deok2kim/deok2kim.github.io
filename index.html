@@ -1,1 +1,53 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEOK2 TODO APP</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!-- WEATHER -->
+    <div id="weather" class="position-absolute top-0 end-0 m-5">
+        <span class="fs-4"></span>
+        <span class="fs-3"></span>
+    </div>
+
+    <!-- CLOCK -->
+    <div id="clock" class="m-5">
+        <h1></h1>
+    </div>
+
+    <!-- LOGIN -->
+    <div id="login" class="m-5 d-flex flex-column align-items-center justify-content-end">
+        <h1 class="fs-1">Hello, What's your name?</h1>
+        <form action="" id="form-login">
+            <input id="input-username" type="text" placeholder="">
+        </form>
+        <h2 id="username"></h2>
+    </div>
+
+    <!-- TODO -->
+    <div id="todo">
+        <form id="form-todo" action="" class="mb-5">
+            <input id="input-todo" type="text" placeholder="Write Todo and press enter" required>
+        </form>
+        <ul id="ul-todo"></ul>
+    </div>
+
+
+
+    <script src="js/clock.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+
+</body>
+</html>
